@@ -1,7 +1,7 @@
 class McpStudio < Formula
   desc "A local studio to debug MCP Servers and MCP Applications"
   homepage "https://github.com/pragmalabs-tech/mcp-studio"
-  version "0.3.41"
+  version "0.4.0"
   license "Unlicense"
 
   on_macos do
@@ -11,18 +11,18 @@ class McpStudio < Formula
     end
     on_intel do
       url "https://dl.pragmalabs.tech/mcp-studio/v#{version}/mcp-studio-x86_64-apple-darwin.tar.gz"
-      sha256 "9885f67b81f721c9302765b64e78c0f213c87b5a9a37cb0d7d7224ab00fb7502"
+      sha256 "efe079f373e9d438dbc7d8e8a92683f56531c719338d913060fa372239c9b506"
     end
   end
 
   on_linux do
     on_arm do
       url "https://dl.pragmalabs.tech/mcp-studio/v#{version}/mcp-studio-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9a6e6e5079ce9a188008a0116c472f25dc278bddbd7226af02eda41420851fd8"
+      sha256 "8d34a3c4ce8506c1add0cafb51d27bddfe49ebedeb640d1dc7f837b47af2bf91"
     end
     on_intel do
       url "https://dl.pragmalabs.tech/mcp-studio/v#{version}/mcp-studio-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2f699e8be1325097156751b2af10c2e98fb278f935506550c41c8ca5d12357f3"
+      sha256 "3a215529013263089f5da7193d8e49f014edc873558226d55b58a609611a19e5"
     end
   end
 
